@@ -56,7 +56,7 @@ const App = () => {
       <header className="grid justify-center items-center px-4 bg-slate-50 shadow-lg">
         <p>Header</p>
       </header>
-      <main className="grid grid-rows-[200px_1fr] gap-4 mx-4">
+      <main className="grid grid-rows-[200px_1fr] md:grid-rows-1 md:grid-cols-[1fr_2fr] gap-4 mx-4">
         <div className="grid grid-rows-3  bg-slate-50 rounded-3xl shadow-lg">
           <p className="justify-self-center self-center">New Todo</p>
           <p className="justify-self-center self-center p-2 border-slate-500 border-2">input + add button</p>
